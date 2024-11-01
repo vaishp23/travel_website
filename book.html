@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Book a Trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="trips.html">Trips</a>
+        <a href="book.html">Book a Trip</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h1>Book a Trip</h1>
+        <form>
+            <label for="destination">Choose your destination:</label>
+            <select id="destination" name="destination">
+                <option value="bali">Bali</option>
+                <option value="hawaii">Hawaii</option>
+                <option value="maldives">Maldives</option>
+            </select>
+            <label for="date">Departure Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit" onclick="alert('Your booking is confirmed!')">Book Now</button>
+        </form>
+    </main>
+</body>
+</html>
